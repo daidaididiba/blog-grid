@@ -32,7 +32,7 @@ Grid网格布局主要有几个基础概念：行和列、单元格、网格线
 
 ### 容器属性
 
-##### 1、display: grid;
+#### 1、display: grid;
 
 指定一个容器采用网格布局。
 
@@ -60,7 +60,7 @@ Grid网格布局主要有几个基础概念：行和列、单元格、网格线
 
 
 
-##### 2、grid-template-columns属性和grid-template-rows 属性
+#### 2、grid-template-columns属性和grid-template-rows 属性
 
 容器指定了网格布局以后，接着就要划分行和列。`grid-template-columns`属性定义每一列的列宽，`grid-template-rows`属性定义每一行的行高。
 
@@ -180,7 +180,7 @@ Grid网格布局主要有几个基础概念：行和列、单元格、网格线
 
 
 
-##### 3、row-gap 属性， column-gap 属性， gap 属性
+#### 3、row-gap 属性， column-gap 属性， gap 属性
 
 `row-gap`属性设置行与行的间隔（行间距），`column-gap`属性设置列与列的间隔（列间距）。
 
@@ -215,7 +215,7 @@ gap属性是row-gap和column-gap合并简写：
 
 
 
-##### 4、grid-auto-flow 属性
+#### 4、grid-auto-flow 属性
 
 划分网格以后，容器的子元素会按照顺序，自动放置在每一个网格。默认的放置顺序是"先行后列"，即先填满第一行，再开始放入第二行，即下图数字的顺序。
 
@@ -280,7 +280,7 @@ gap属性是row-gap和column-gap合并简写：
 
 
 
-##### 5、 justify-items 属性， align-items 属性， place-items 属性
+#### 5、 justify-items 属性， align-items 属性， place-items 属性
 
 `justify-items`属性设置单元格内容的水平位置（左中右），`align-items`属性设置单元格内容的垂直位置（上中下）。
 
@@ -338,7 +338,7 @@ place-items: <align-items> <justify-items>;
 
 
 
-##### 6、justify-content 属性， align-content 属性， place-content 属性
+#### 6、justify-content 属性， align-content 属性， place-content 属性
 
 `justify-content`属性是整个内容区域在容器里面的水平位置（左中右），`align-content`属性是整个内容区域的垂直位置（上中下）。
 
@@ -427,7 +427,7 @@ place-content: <align-content> <justify-content>
 
 
 
-##### 7、grid-auto-columns 属性， grid-auto-rows 属性
+#### 7、grid-auto-columns 属性， grid-auto-rows 属性
 
 有时候，一些项目的指定位置，在现有网格的外部。比如网格是3*2，但是项目却不止6个。这时，浏览器会自动生成多余的网格，以便放置项目。
 
@@ -450,7 +450,7 @@ place-content: <align-content> <justify-content>
 
 ### 项目属性（子元素属性）
 
-##### 1、grid-column-start 属性， grid-column-end 属性， grid-row-start 属性， grid-row-end 属性
+#### 1、grid-column-start 属性， grid-column-end 属性， grid-row-start 属性， grid-row-end 属性
 
 - 项目的位置是可以指定的，具体方法就是指定项目的四个边框，分别定位在哪根网格线。
 
@@ -525,7 +525,7 @@ place-content: <align-content> <justify-content>
 
 
 
-##### 2、grid-column 属性， grid-row 属性
+#### 2、grid-column 属性， grid-row 属性
 
 `grid-column`属性是`grid-column-start`和`grid-column-end`的合并简写形；
 
@@ -590,7 +590,7 @@ place-content: <align-content> <justify-content>
 
 
 
-##### 3、grid-area 属性
+#### 3、grid-area 属性
 
 `grid-area`属性指定项目放在哪一个区域。
 
@@ -628,7 +628,7 @@ grid-area: <row-start> / <column-start> / <row-end> / <column-end>;
 
 
 
-##### 4、justify-self 属性， align-self 属性， place-self 属性
+#### 4、justify-self 属性， align-self 属性， place-self 属性
 
 `justify-self`属性设置单元格内容的水平位置（左中右），跟`justify-items`属性的用法完全一致，但只作用于单个项目。
 
